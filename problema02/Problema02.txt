@@ -1,0 +1,15 @@
+// Generar e imprimir la siguiente serie:
+// +1/1+1/3+1/5+1/7+1/9
+
+1. Inicio
+
+2. numerador, i[0,n] <--  1
+3. denominador, i[0,n] <-- 1
+4. cadena, x(200)[{1-9},{BS}, {/, +}] <-- ""
+5. Haga_Hasta
+6.     cadena <-- cadena + "+" + numeradorPar + "/" + denominador
+7.     denominador <-- denominador + 2
+8. Fin Haga_Hasta (denominador <= 9)
+9. Escribir cadena
+
+10. Fin
