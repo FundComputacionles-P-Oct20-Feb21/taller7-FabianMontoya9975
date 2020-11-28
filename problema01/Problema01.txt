@@ -3,19 +3,19 @@
 
 1. Inicio
 
-. numeradorPar, i[0,n] <--  1
-. numeradorImpar, i[0,n] <-- -1
-. contadorDenominador, i[0,n] <-- 1
-. cadena, x(200)[{1-9},{BS}, {/, +, -}] <-- ""
-. Haga_Hasta
-.     Si ((contadorDenominador MOD 2) == 0) entonces
-.         cadena <-- cadena + "+" + numeradorPar + "/" + contadorDenominador
-.         contadorDenominador <-- contadorDenominador + 1
-.     De lo contrario
-.         cadena <-- cadena + numeradorImpar + "/" + contadorDenominador
-.         contadorDenominador <-- contadorDenominador + 1
-.     Fin Si
-. Fin Haga_Hasta (contadorDenominador <= 10)
-. Escribir cadena
+2. numeradorPar, i[0,n] <--  1
+3. numeradorImpar, i[0,n] <-- -1
+4. contadorDenominador, i[0,n] <-- 1
+5. cadena, x(200)[{1-9},{BS}, {/, +, -}] <-- ""
+6. Haga_Hasta
+7.     Si ((contadorDenominador MOD 2) == 0) entonces
+8.         cadena <-- cadena + "+" + numeradorPar + "/" + contadorDenominador
+9.         contadorDenominador <-- contadorDenominador + 1
+10.     De lo contrario
+11.         cadena <-- cadena + numeradorImpar + "/" + contadorDenominador
+12.         contadorDenominador <-- contadorDenominador + 1
+13.     Fin Si
+14. Fin Haga_Hasta (contadorDenominador <= 10)
+15. Escribir cadena
 
-. Fin
+16. Fin
